@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #141414;
+	color: white;
+	font-family: 'Arial','Helvetica',sans-serif;
+	line-height: 2rem;
+}
+
+.about-header{
+	background: url('../img/about-header.jpg');
+	background-attachment: fixed;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.about-header h1{
+	font-size: 1.5rem;
+	padding-top: 75px;
+}
+
+.about-header p{
+	margin: 0 auto;
+	padding: 1em;
+	border: 1px solid white;
+	width: 150px;
+	text-transform: uppercase;
+}
+
+.section1{
+	background: #011638;
+	padding: 10px;
+	font-size: 1.2rem;
+	border-top: 3px solid rgba(0,0,0,0.5);
+}
+
+.section1 li{
+	padding-left: 5vw;
+}
+
+.section2{
+	background: url('../img/map.jpg') center;
+	background: #EEC643;
+	border-top: 3px solid rgba(0,0,0,0.5);
+}
+
+.section2 h1{
+	font-family: 'lucida handwriting',cursive;
+	opacity: 0.8;
+	padding: 10px;
+	font-size: 2rem;
+	text-decoration: underline;
+	color: #141414;
+}
+
+.section2 img{
+	display: block;
+	margin: 0 auto;
+	transition: 350ms;
+	transition-property: filter;
+	filter: grayscale(100%);
+	transform: scale(0.75);
+	margin-top: -50px;
+	border: 2px solid black;
+}
+
+.section2 img:hover{
+	filter: grayscale(0);
+}
+
+.section3{
+	background: #EEF0F2;
+	color: #141414;
+}
